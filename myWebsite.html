@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodingMarket</title>
+    <link rel="stylesheet"   href="Mywebsite.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+     integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+</head>
+<body>
+   
+    <div class="main" id=Home>
+        <!-- header -->
+        <div class="navbar">
+            <div class="logo">
+                <a href="#">Coding Market</a>
+            </div>
+            <div class="navbar_Mobile" id="navbarMobile">
+                <ul>
+                    <li><a href="" class="close-btn" id="closeNav" onclick="closeNav()">&times;</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact_us">Contact</a></li>
+                    <li><a href="#ourteam">Our Team</a></li>
+                </ul>
+            </div>
+            <div class="navbar_items">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact_us">Contact</a></li>
+                    <li><a href="#ourteam">Our Team</a></li>
+                </ul>
+            </div>
+            <div class="menu_toggle" id="MenuBar" onclick="openNav()"><i class="fa-solid fa-bars"></i></div>
+        </div>
+
+        <!-- banner -->
+        <div class="banner_image">
+            <div class="banner_content">
+                <h1>Only I can change My life.<br/>
+                    <span>No one can do it for me</span>
+                </h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Amet, adipisci repellendus dolor odio enim dignissimos sit quibusdam vero nostrum</p>
+            </div>
+        </div>
+
+        <!--about us-->
+        <div class="about" id="about"> 
+            <div class="title">
+                <h1>about Us</h1>
+            </div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Amet, adipisci repellendus dolor odio enim dignissimos sit quibusdam vero nostrum,
+            voluptatibus, nulla repudiandae assumenda pariatur itaque commodi similique beatae ab in.</p>
+            <div class="btn"><a href="#..">Learn more</a></div>
+        </div>
+
+        <!--services section-->
+        <div class="services" id="services">
+            <div class="title">
+                <h1>our service</h1>
+            </div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Amet, adipisci repellendus dolor odio enim dignissimos sit quibusdam vero nostrum.</p>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <div class="img_box">
+                        <img src="2109966.jpg" alt="service_image">
+                    </div>
+                    <div class="content">
+                        <h3>Web development</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Amet, adipisci repellendus dolor odio enim dignissimos sit quibusdam vero nostrum.</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="img_box">
+                        <img src="concept-development-device-flat.jpg" alt="service_image">
+                    </div>
+                    <div class="content">
+                        <h3>App development</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Amet, adipisci repellendus dolor odio enim dignissimos sit quibusdam vero nostrum.</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="img_box">
+                        <img src="3389575.jpg" alt="service_image">
+                    </div>
+                    <div class="content">
+                        <h3>Psd to HTML</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Amet, adipisci repellendus dolor odio enim dignissimos sit quibusdam vero nostrum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--contact section-->
+        <div class="contact_us" id="contact_us">
+            <div class="title">
+                <h1>contact Us</h1>
+            </div>
+            <div class="form_wrapper">
+                <div class="form_input">
+                    <input type="text" placeholder="Email :" id="Email">
+                </div>
+                <div class="form_input">
+                    <input type="text" placeholder="Subject : " id="subject">
+                </div>
+                <div class="form_input textarea">
+                    <textarea rows="4" placeholder="Message" id="message"></textarea>
+                </div>
+                <div class="Submit">
+                    <a href="#..">Submit</a>
+                </div>
+            </div>
+        </div>
+
+        <!--our team-->
+        <div class="ourteam" id="ourteam">
+            <div class="title">
+                <h1>our team</h1>
+            </div>
+            <div class="box-container">
+                <div class="box" >
+                    <img src="image (3).jfif" alt="Team_image" id="page">
+                </div>  
+
+                <div class="box">
+                    <img src="image (1).jfif" alt="Team_image"  id="page">
+                </div>
+
+                <div class="box">
+                    <img src="image (4).jfif" alt="Team_image" id="page">
+                </div>
+
+                <div class="box" >
+                    <img src="image (5).jfif" alt="Team_image" id="page">
+                </div>  
+
+                <div class="box">
+                    <img src="image (6).jfif" alt="Team_image"  id="page">
+                </div>
+
+                <div class="box">
+                    <img src="image.jfif" alt="Team_image" id="page">
+                </div>
+            </div>
+        </div>
+        
+        <!--footer-->
+        <div class="footer">
+            <a href="#....">@ 2021 Coding Market</a>
+        </div>
+
+        <div class="arrow">
+            <a href="#Home" >
+                <img src="download (2).png" alt="up_arrow">
+            </a>
+        </div>
+
+    </div>
+</body>
+    <script>
+
+        function openNav (){
+            document.getElementById("navbarMobile").style.width = "250px";
+            // document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+        }
+
+        function closeNav (){
+            document.getElementById("navbarMobile").style.width = "0";
+            // document.body.style.backgroundColor = "white";
+        }
+
+
+        
+    </script>
+</html>
